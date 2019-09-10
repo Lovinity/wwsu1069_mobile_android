@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/main_layout"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/stationlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/silver"
+        android:src="@drawable/wwsu1069fm" />
+
+    <Button
+        android:id="@+id/radio_station_connection_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="activityChange"
+        android:text="Connect to Station"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="bottom"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/wwsuImage"
+        android:layout_width="125dp"
+        android:layout_height="94dp"
+        android:src="@drawable/wwsu1069fm" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(937) 775-5555 (Studio)"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(937) 775-5554 (Main)"
+        android:textColor="@color/black" />
+
+</LinearLayout>
